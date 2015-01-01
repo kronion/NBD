@@ -4,8 +4,32 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+## Our mission
 
-You can find the source code for the Jekyll new theme at: [github.com/jglovier/jekyll-new](https://github.com/jglovier/jekyll-new)
+Cupcake ipsum dolor sit amet donut danish. Applicake powder liquorice sweet roll bonbon gummies carrot cake unerdwear.com apple pie. Cake cake gingerbread soufflé danish halvah bear claw ice cream ice cream.
+Tiramisu apple pie unerdwear.com jelly beans. Cake caramels candy canes jelly unerdwear.com cake ice cream biscuit. Caramels lollipop pastry.
 
-You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
+## Origin of the project
+
+Cupcake ipsum dolor sit amet donut danish. Applicake powder liquorice sweet roll bonbon gummies carrot cake unerdwear.com apple pie. Cake cake gingerbread soufflé danish halvah bear claw ice cream ice cream.
+Tiramisu apple pie unerdwear.com jelly beans. Cake caramels candy canes jelly unerdwear.com cake ice cream biscuit. Caramels lollipop pastry.
+
+## The Cohort
+
+Cupcake ipsum dolor sit amet donut danish. Applicake powder liquorice sweet roll bonbon gummies carrot cake unerdwear.com apple pie. Cake cake gingerbread soufflé danish halvah bear claw ice cream ice cream.
+Tiramisu apple pie unerdwear.com jelly beans. Cake caramels candy canes jelly unerdwear.com cake ice cream biscuit. Caramels lollipop pastry.
+
+## The Community
+
+Cupcake ipsum dolor sit amet donut danish. Applicake powder liquorice sweet roll bonbon gummies carrot cake unerdwear.com apple pie. Cake cake gingerbread soufflé danish halvah bear claw ice cream ice cream.
+Tiramisu apple pie unerdwear.com jelly beans. Cake caramels candy canes jelly unerdwear.com cake ice cream biscuit. Caramels lollipop pastry.
+
+## The Team
+
+Cupcake ipsum dolor sit amet donut danish. Applicake powder liquorice sweet roll bonbon gummies carrot cake unerdwear.com apple pie. Cake cake gingerbread soufflé danish halvah bear claw ice cream ice cream.
+Tiramisu apple pie unerdwear.com jelly beans. Cake caramels candy canes jelly unerdwear.com cake ice cream biscuit. Caramels lollipop pastry.
+
+## The Newsletter
+
+Cupcake ipsum dolor sit amet donut danish. Applicake powder liquorice sweet roll bonbon gummies carrot cake unerdwear.com apple pie. Cake cake gingerbread soufflé danish halvah bear claw ice cream ice cream.
+Tiramisu apple pie unerdwear.com jelly beans. Cake caramels candy canes jelly unerdwear.com cake ice cream biscuit. Caramels lollipop pastry.
