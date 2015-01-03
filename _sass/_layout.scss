@@ -2,12 +2,14 @@
  * Site header
  */
 .site-header {
-    border-top: 5px solid $grey-color-dark;
-    border-bottom: 1px solid $grey-color-light;
-    min-height: 56px;
-
     // Positioning context for the mobile navigation icon
     position: relative;
+    border-bottom: 5px solid $grey-color-dark;
+    background: url($background-image);
+    background-size: cover;
+    background-position: center 152px;
+    background-attachment: fixed;
+    -webkit-filter: brightness(125%);
 }
 
 .site-title {
@@ -22,7 +24,9 @@
 
     > h1 {
       margin: 0;
-      font-size: 56px;
+      font-family: Futura,Trebuchet MS,Arial,sans-serif; 
+      font-variant: small-caps;
+      font-size: 64px;
     }
 
     > h2 {
@@ -204,6 +208,7 @@
   height: 80px;
   margin-right: 10px;
   border-radius: 40px;
+  box-shadow: 2px 2px 7px #888;
   vertical-align: middle;
 }
 
