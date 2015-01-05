@@ -4,7 +4,7 @@
 .site-header {
     // Positioning context for the mobile navigation icon
     position: relative;
-    border-bottom: 5px solid $grey-color-dark;
+    box-shadow: 2px 2px 2px #888;
     background: url($background-image);
     background-size: cover;
     background-position: center 152px;
@@ -15,23 +15,29 @@
 .site-title {
     display: block;
     margin-bottom: 0;
-    text-align: center;
+    padding-top: 36px;
 
     &,
     &:visited {
         color: $grey-color-dark;
     }
+    &:hover {
+        text-decoration: none;
+        color: lighten($grey-color-dark, 4%);
+    }
 
     > h1 {
       margin: 0;
-      font-family: Futura,Trebuchet MS,Arial,sans-serif; 
-      font-variant: small-caps;
-      font-size: 64px;
+      font-weight: 300;
+      font-size: 42px;
+      text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+      line-height: 1.25;
+      color: #333;
     }
 
     > h2 {
       margin: 0;
-      font-size: 36px;
+      font-size: 16px;
     }
 }
 
@@ -52,7 +58,9 @@
 
 .site-nav {
     float: right;
-    line-height: 56px;
+    //line-height: 56px;
+    padding-bottom: 12px;
+    padding-right: 12px;
 
     .menu-icon {
         display: none;
@@ -120,11 +128,12 @@
  */
 .site-footer {
   border-top: 1px solid $grey-color-light;
-  padding: $spacing-unit 0;
+  padding: $spacing-unit 0 0;
   background: #eee;
 }
 
 .footer-heading {
+    display: none;
     font-size: 18px;
     margin-bottom: $spacing-unit / 2;
 }
@@ -198,17 +207,17 @@
     list-style: none;
 
     > li {
-        margin-bottom: $spacing-unit;
+        padding: $spacing-unit 0;
     }
 }
 
 .headshot {
-  display: inline-block;
-  width: 80px;
-  height: 80px;
-  margin-right: 10px;
-  border-radius: 40px;
-  box-shadow: 2px 2px 7px #888;
+  float: right;
+  width: 70px;
+  height: 70px;
+  margin-right: 12px;
+  border-radius: 35px;
+  box-shadow: 2px 2px 5px #888;
   vertical-align: middle;
 }
 
@@ -227,15 +236,20 @@
 /**
  * Posts
  */
+
+.page-content .wrapper .post {
+    margin-top: $spacing-unit * 0.8;
+}
+
 .post-header {
-    margin-bottom: $spacing-unit;
+    margin-bottom: $spacing-unit * 0.8;
 }
 
 .post-title {
     margin: 0;
     font-size: 42px;
     letter-spacing: -1px;
-    line-height: 1;
+    line-height: 1.25;
 
     @include media-query($on-laptop) {
         font-size: 36px;
