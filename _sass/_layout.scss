@@ -4,7 +4,6 @@
 .site-header {
   width: 100%;
   height: 180px;
-  // Positioning context for the mobile navigation icon
   position: relative;
   background: url($background-image);
   background-size: 100%;
@@ -16,7 +15,7 @@
 .site-title {
     display: block;
     margin-bottom: 0;
-    text-align: center;
+    padding-top: 36px;
 
     &,
     &:visited {
@@ -25,6 +24,10 @@
 
     &:hover {
       color: $text-color;
+    }
+    &:hover {
+        text-decoration: none;
+        color: lighten($grey-color-dark, 4%);
     }
 
     > h1 {
@@ -36,7 +39,7 @@
 
     > h2 {
       margin: 0;
-      font-size: 36px;
+      font-size: 16px;
     }
 
     @include media-query($on-mobile) {
@@ -80,6 +83,7 @@
 }
 
 .footer-heading {
+    display: none;
     font-size: 18px;
     margin-bottom: $spacing-unit / 2;
 }
@@ -187,6 +191,11 @@
 /**
  * Posts
  */
+
+.page-content .wrapper .post {
+    margin-top: $spacing-unit * 0.8;
+}
+
 .post-header {
     margin-bottom: $spacing-unit;
 
@@ -214,12 +223,12 @@
 }
 
 .post-title {
-    margin: 0;
-    font-family: $headline-font-family;
-    font-variant: small-caps;
-    font-size: 38px;
-    letter-spacing: -0.5px;
-    line-height: 1;
+  margin: 0;
+  font-family: $headline-font-family;
+  font-variant: small-caps;
+  font-size: 38px;
+  letter-spacing: -0.5px;
+  line-height: 1;
 }
 
 .post-content {

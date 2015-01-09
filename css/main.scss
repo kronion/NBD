@@ -8,6 +8,7 @@
 // Our variables
 $base-font-family: Open Sans, Helvetica Nueue, Helvetica, Arial, sans-serif;
 $headline-font-family: Avenir, Trebuchet MS, Helvetica Nueue, Helvetica, Arial, sans-serif;
+
 $base-font-size:   14px;
 $small-font-size:  $base-font-size * 0.875;
 $nav-font-size:    16px;
@@ -47,6 +48,7 @@ $on-laptop:        800px;
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
+        "freight-text-pro",
         "base",
         "layout",
         "syntax-highlighting"
