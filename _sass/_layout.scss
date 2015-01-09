@@ -7,7 +7,7 @@
   // Positioning context for the mobile navigation icon
   position: relative;
   background: url($background-image);
-  background-size: cover;
+  background-size: 100%;
   background-position: center 180px;
   background-attachment: fixed;
   -webkit-filter: brightness(125%);
@@ -25,7 +25,6 @@
 
     &:hover {
       color: $text-color;
-      text-decoration: none;
     }
 
     > h1 {

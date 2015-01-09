@@ -5,6 +5,7 @@ date:   2015-1-9 19:09:45
 author: Laura Du
 authBrev: ldu
 imgFolder: ldu1
+excerpt: Our generation is famous for setting <a href="http://waitbutwhy.com/2013/09/why-generation-y-yuppies-are-unhappy.html">sky-high self-expectations</a>, chasing an ever-more glamorous <a href="http://www.gq.com/news-politics/mens-lives/201308/instagram-fomo-disorder-treatment-plan">#FOMO-inspired lifestyle</a>, and sending legions of <a href="http://www.forbes.com/sites/michaelgibson/2014/02/07/the-ivy-league-has-perfected-the-investment-banker-and-management-consultant-replicator/">young graduates to Wall Street</a>. <br><br>At Princeton, finance has long dominated as the largest industry employer of students – attracting 46% of full-time employed graduates in 2006, 24% of members of the Class of 2013 - followed closely by other traditionally Princeton career paths such as consulting and Big Tech. Together, these three sectors employed nearly half of full-time employed graduates of the Class of 2013. Six months ago, I walked out Fitz-Randolph Gate myself, arm-in-arm with my friends and classmates of four years, headed off to conquer a smattering of jobs roughly distributed among the aforementioned proportions. “Were we on the right path?” we wondered – were we ready to take on the question&#58 “What will we do with our lives?”
 ---
 
 Our generation is famous for setting [sky-high self-expectations][generation-y], chasing an ever-more glamorous [#FOMO-inspired lifestyle][fomo], and sending legions of [young graduates to Wall Street][replicator].
