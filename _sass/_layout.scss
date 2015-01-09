@@ -2,14 +2,14 @@
  * Site header
  */
 .site-header {
-    // Positioning context for the mobile navigation icon
-    position: relative;
-    box-shadow: 2px 2px 2px #888;
-    background: url($background-image);
-    background-size: cover;
-    background-position: center 152px;
-    background-attachment: fixed;
-    -webkit-filter: brightness(125%);
+  width: 100%;
+  height: 180px;
+  position: relative;
+  background: url($background-image);
+  background-size: 100%;
+  background-position: center 180px;
+  background-attachment: fixed;
+  -webkit-filter: brightness(125%);
 }
 
 .site-title {
@@ -19,7 +19,11 @@
 
     &,
     &:visited {
-        color: $grey-color-dark;
+      color: $grey-color-dark;
+    }
+
+    &:hover {
+      color: $text-color;
     }
     &:hover {
         text-decoration: none;
@@ -28,97 +32,44 @@
 
     > h1 {
       margin: 0;
-      font-weight: 300;
-      font-size: 42px;
-      text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
-      line-height: 1.25;
-      color: #333;
+      font-variant: small-caps;
+      font-size: 64px;
+      font-weight: 400;
     }
 
     > h2 {
       margin: 0;
       font-size: 16px;
     }
-}
 
-.site-title-background {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  text-align: center;
-  line-height: 100%;
-  z-index: -999;
-  overflow: hidden;
-
-  > h1 {
-    color: #aaa;
-    font-size: 30vw;
-  }
+    @include media-query($on-mobile) {
+      > h1 {
+        font-size: 48px;
+      }
+    }
 }
 
 .site-nav {
-    float: right;
-    //line-height: 56px;
-    padding-bottom: 12px;
-    padding-right: 12px;
+  border-top: 3px solid $grey-color-dark;
+  font-family: $headline-font-family;
+  font-variant: small-caps;
+  text-align: center;
+  line-height: 56px;
 
-    .menu-icon {
-        display: none;
+  .wrapper {
+    border-bottom: 2px solid $grey-color-dark;
+  }
+
+  .page-link {
+    color: $text-color;
+    font-size: $nav-font-size;
+    line-height: $base-line-height;
+
+    // Gaps between nav items, but not on the first one
+    &:not(:first-child) {
+      margin-left: 30px;
     }
-
-    .page-link {
-        color: $text-color;
-        line-height: $base-line-height;
-
-        // Gaps between nav items, but not on the first one
-        &:not(:first-child) {
-            margin-left: 20px;
-        }
-    }
-
-    @include media-query($on-palm) {
-        position: absolute;
-        top: 9px;
-        right: 30px;
-        background-color: $background-color;
-        border: 1px solid $grey-color-light;
-        border-radius: 5px;
-        text-align: right;
-
-        .menu-icon {
-            display: block;
-            float: right;
-            width: 36px;
-            height: 26px;
-            line-height: 0;
-            padding-top: 10px;
-            text-align: center;
-
-            > svg {
-                width: 18px;
-                height: 15px;
-
-                path {
-                    fill: $grey-color-dark;
-                }
-            }
-        }
-
-        .trigger {
-            clear: both;
-            display: none;
-        }
-
-        &:hover .trigger {
-            display: block;
-            padding-bottom: 5px;
-        }
-
-        .page-link {
-            display: block;
-            padding: 5px 10px;
-        }
-    }
+  }
 }
 
 
@@ -127,9 +78,8 @@
  * Site footer
  */
 .site-footer {
-  border-top: 1px solid $grey-color-light;
-  padding: $spacing-unit 0 0;
-  background: #eee;
+  padding: $spacing-unit 0;
+  background: $grey-color-dark;
 }
 
 .footer-heading {
@@ -146,7 +96,7 @@
 
 .footer-col-wrapper {
     font-size: 15px;
-    color: $grey-color;
+    color: $grey-color-light;
     margin-left: -$spacing-unit / 2;
     @extend %clearfix;
 }
@@ -170,6 +120,18 @@
 .footer-col-3 {
     width: -webkit-calc(45% - (#{$spacing-unit} / 2));
     width:         calc(45% - (#{$spacing-unit} / 2));
+}
+
+.social-media-list {
+  a {
+    text-decoration: none;
+  }
+
+  a:hover {
+    .username {
+      text-decoration: underline;
+    }
+  }
 }
 
 @include media-query($on-laptop) {
@@ -199,7 +161,7 @@
  * Page content
  */
 .page-content {
-    padding: $spacing-unit 0;
+  padding: 1.5 * $spacing-unit 0;
 }
 
 .post-list {
@@ -207,27 +169,20 @@
     list-style: none;
 
     > li {
-        padding: $spacing-unit 0;
+      &:not(:last-child) {
+        margin-bottom: $spacing-unit * 1.5;
+      }
     }
-}
-
-.headshot {
-  float: right;
-  width: 70px;
-  height: 70px;
-  margin-right: 12px;
-  border-radius: 35px;
-  box-shadow: 2px 2px 5px #888;
-  vertical-align: middle;
 }
 
 .meta-wrap {
   display: inline-block;
+  width: 85%;
   vertical-align: middle;
 }
 
 .post-meta {
-    font-size: $small-font-size;
+    font-size: $base-font-size;
     color: $grey-color;
 }
 
@@ -242,25 +197,45 @@
 }
 
 .post-header {
-    margin-bottom: $spacing-unit * 0.8;
+    margin-bottom: $spacing-unit;
+
+    @include media-query($on-laptop) {
+      text-align: center;
+
+      .headshot {
+        margin: 0 0 $spacing-unit/2 0;
+      }
+
+      .meta-wrap {
+        width: 100%;
+      }
+    }
+}
+
+.headshot {
+  display: inline-block;
+  width: 80px;
+  height: 80px;
+  margin-right: 10px;
+  border: 1.5px solid #353535;
+  border-radius: 40px;
+  vertical-align: middle;
 }
 
 .post-title {
-    margin: 0;
-    font-size: 42px;
-    letter-spacing: -1px;
-    line-height: 1.25;
-
-    @include media-query($on-laptop) {
-        font-size: 36px;
-    }
+  margin: 0;
+  font-family: $headline-font-family;
+  font-variant: small-caps;
+  font-size: 38px;
+  letter-spacing: -0.5px;
+  line-height: 1;
 }
 
 .post-content {
     margin-bottom: $spacing-unit;
 
     h2 {
-        font-size: 32px;
+        font-size: 30px;
 
         @include media-query($on-laptop) {
             font-size: 28px;

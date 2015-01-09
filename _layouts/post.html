@@ -7,7 +7,7 @@ layout: default
     <div class='headshot' style='background: url({{ site.baseurl }}/assets/img/{{ page.authBrev }}.jpg); background-size: cover'></div>
     <div class='meta-wrap'>
       <h1 class="post-title">{{ page.title }}</h1>
-      <span class="post-meta">{{ page.author }} &middot {{ page.date | date: "%b %-d, %Y" }}</span>
+      <span class="post-meta">{{ page.date | date: "%-d %B %Y" }} &middot {{ page.author }}</span>
     </div>
   </header>
 

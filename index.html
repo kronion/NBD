@@ -12,15 +12,12 @@ layout: default
             <h1 class='post-title'>
               <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
             </h2>
-            <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }} &middot; {{ post.author }}</span>
+            <span class="post-meta">{{ post.date | date: "%-d %B %Y" }} &middot {{ post.author }} </span>
           </div>
-          <div class='headshot' style='background: url({{ site.baseurl }}/assets/img/{{ post.authBrev }}.jpg); background-size: cover'></div>
         </div>
         <p>{{ post.excerpt }}</p>
       </li>
     {% endfor %}
   </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
 
 </div>

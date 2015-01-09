@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-## Our mission
+## Our Mission
 
 Cupcake ipsum dolor sit amet donut danish. Applicake powder liquorice sweet roll bonbon gummies carrot cake unerdwear.com apple pie. Cake cake gingerbread soufflé danish halvah bear claw ice cream ice cream.
 Tiramisu apple pie unerdwear.com jelly beans. Cake caramels candy canes jelly unerdwear.com cake ice cream biscuit. Caramels lollipop pastry.

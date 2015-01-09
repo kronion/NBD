@@ -50,11 +50,13 @@ img {
  * Figures
  */
 figure > img {
-    display: block;
+  display: block;
+  border: 1.5px solid $grey-color-dark;
 }
 
 figcaption {
-    font-size: $small-font-size;
+  text-align: center;
+  font-size: $small-font-size;
 }
 
 
@@ -79,7 +81,9 @@ li {
  * Headings
  */
 h1, h2, h3, h4, h5, h6 {
-    font-weight: 300;
+  font-family: $headline-font-family;
+  font-weight: 300;
+  font-variant: small-caps;
 }
 
 
@@ -92,11 +96,11 @@ a {
     text-decoration: none;
 
     &:visited {
-        color: darken($brand-color, 15%);
+        color: darken($brand-color, 12%);
     }
 
     &:hover {
-        //color: $text-color;
+        color: lighten($brand-color, 10%);
         text-decoration: underline;
     }
 }
@@ -198,7 +202,9 @@ pre {
         vertical-align: middle;
 
         path {
-            fill: $grey-color;
+          fill: $grey-color;
         }
     }
+
+    color: $grey-color;
 }
