@@ -8,31 +8,27 @@ layout: default
     {% for post in site.posts %}
       <li>
         <div class='post-header'>
-          <div class='headshot' style='background: url({{ site.baseurl }}/assets/img/{{ post.authBrev }}.jpg); background-size: cover'></div>
           <div class='meta-wrap'>
             <h1 class='post-title'>
               <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
             </h2>
-            <span class="post-meta">{{ post.author }} &middot {{ post.date | date: "%b %-d, %Y" }}</span>
+            <span class="post-meta">{{ post.date | date: "%-d %B %Y" }} &middot {{ post.author }} </span>
           </div>
         </div>
         <p>{{ post.excerpt }}</p>
       </li>
       <li>
         <div class='post-header'>
-          <div class='headshot' style='background: url({{ site.baseurl }}/assets/img/{{ post.authBrev }}.jpg); background-size: cover'></div>
           <div class='meta-wrap'>
             <h1 class='post-title'>
               <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
             </h2>
-            <span class="post-meta">{{ post.author }} &middot {{ post.date | date: "%b %-d, %Y" }}</span>
+            <span class="post-meta">{{ post.date | date: "%-d %B %Y" }} &middot {{ post.author }} </span>
           </div>
         </div>
         <p>{{ post.excerpt }}</p>
       </li>
     {% endfor %}
   </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
 
 </div>
