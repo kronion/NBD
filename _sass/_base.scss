@@ -208,3 +208,12 @@ pre {
 
     color: $grey-color;
 }
+
+
+
+/**
+ * PureCSS 
+ */
+div[class^="pure-u"] > p {
+  padding: 0.5em;
+}
