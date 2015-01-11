@@ -15,7 +15,7 @@ layout: default
             <span class="post-meta">{{ post.date | date: "%-d %B %Y" }} &middot {{ post.author }} </span>
           </div>
         </div>
-        <p>{{ post.excerpt }}</p>
+        <p>{{ post.excerpt }}<a href="{{ post.url | prepend: site.baseurl }}"> Read More</a></p>
       </li>
     {% endfor %}
   </ul>
