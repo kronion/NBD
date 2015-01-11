@@ -49,13 +49,16 @@ img {
 /**
  * Figures
  */
+figure {
+  text-align: center;
+}
+
 figure > img {
-  display: block;
+  width: 600px;
   border: 1.5px solid $grey-color-dark;
 }
 
 figcaption {
-  text-align: center;
   font-size: $small-font-size;
 }
 
