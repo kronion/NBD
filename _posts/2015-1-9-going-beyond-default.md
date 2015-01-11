@@ -28,7 +28,7 @@ I was shocked. How could so many of my extremely talented classmates find themse
 
 To me, the problem wasn\'t students going into finance in and of itself (or consulting, or Big Tech, or medical school...). I believe that investment banking offers significant exposure, training, and acceleration towards a career in private equity and other areas in finance for students so inclined; ditto for many other “traditional” paths and professional end goals one might take. **But how could it be that for a quarter of Princeton students (and at one point, nearly half), finance was the BEST career path?**
 
-And if not finance, then what? The prevailing wisdom today seems to be: [“Skip the bank, join a startup”][ezra]. I love the tech community and I am encouraged by the rise in popularity and feasibility of entrepreneurship as a career path and a mindset (in fact, @sama\’s “Why to Start a Startup” lecture is one of the reasons we were inspired to start “Not By Default”)<a href="#footnote-2"><sup>2</sup></a> – but I don’t think “startups!” are the answer to everything. 
+And if not finance, then what? The prevailing wisdom today seems to be: [“Skip the bank, join a startup”][ezra]. I love the tech community and I am encouraged by the rise in popularity and feasibility of entrepreneurship as a career path and a mindset (in fact, @sama’s “Why to Start a Startup” lecture is one of the reasons we were inspired to start “Not By Default”)<a href="#footnote-2"><sup>2</sup></a> – but I don’t think “startups!” are the answer to everything. 
 
 As startups become increasingly known and applauded as a desirable alternative to finance, I have to wonder, how many students are pursuing this path simply because it is the new “thing to do,” rather than the path that results from conscious choice, from independent thinking – one that truly suits them? The socially-acceptable decision path that begins with “Finance is no longer cool” and leads immediately to “Join a startup!” is, in my mind, just as problematic as heading without a thought to Wall Street in the first place. 
 
@@ -57,7 +57,7 @@ So you go to the info sessions too. And once you start exploring the default pat
 The fallacy lies in the unspoken stickiness of these internships. If all goes well and, at the end of your internship, you get the full-time job, congratulations! Now you have a ticking time bomb on your hands: an offer letter promising job security, familiarity, and external validation – wonderful if this is truly the job you want, but dangerous if you’re not sure. It’s much harder to throw out the bowlines in search of the Promised Land when you’re standing on a nice, cozy island looking out into the vast Unknown.
 
 <figure>
-  <img src="{{ site.baseurl }}/assets/img/{{ page.imgFolder }}/1.jpg" />
+  <img src="{{ site.baseurl }}/assets/img/{{ page.imgFolder }}/1.jpg =600x" />
   <figcaption>
   Figure 1: Internship Island
   </figcaption>
@@ -70,7 +70,7 @@ Thus, you have the **Summer Internship Fallacy**: “Try it and see if you like 
 When you look around and see (or perceive) all your peers following societally-approved, well-structured default paths, it is very hard to imagine a totally different, independent and uniquely “you” path (that doesn’t end in unemployment…). Even if you imagined the job that perfectly encapsulates your passions and preferences, you might be afraid to pursue it, deterred by the uncertainty and unknown of stepping off the beaten road.
 
 <figure>
-  <img src="{{ site.baseurl }}/assets/img/{{ page.imgFolder }}/2.jpg" />
+  <img src="{{ site.baseurl }}/assets/img/{{ page.imgFolder }}/2.jpg =600x" />
   <figcaption>
     Figure 2: Default Road
   </figcaption>
@@ -81,7 +81,7 @@ In fact, lacking the support and camaraderie of fellow off-path explorers, one m
 Imagine instead, if you were surrounded by friends and classmates who eschewed the default paths – maybe they tried finance, big tech, hospital internship, whatever – didn’t like it, and had no problem saying no to job security, for now, to take more time and liberty in exploring uncharted careers. Or maybe they weren’t satisfied with the existing options on offer via the campus jobs board and wanted to pursue a unique academic or side interest a bit further. What if you all wanted to explore different roads – taking independent paths, but embarking on the journey towards self-discovery together? Surrounded and supported by a community of non-default explorers. 
 
 <figure>
-  <img src="{{ site.baseurl }}/assets/img/{{ page.imgFolder }}/3.jpg" />
+  <img src="{{ site.baseurl }}/assets/img/{{ page.imgFolder }}/3.jpg" =900x/>
   <figcaption>
     Figure 3: Off the Default Road
   </figcaption>
@@ -98,7 +98,7 @@ We believed that yes, students needed exposure to a wider variety of jobs, an un
 And so [the cohort][cohort] was born.
 
 <figure>
-  <img src="{{ site.baseurl }}/assets/img/{{ page.imgFolder }}/4.jpg" />
+  <img src="{{ site.baseurl }}/assets/img/{{ page.imgFolder }}/4.jpg" =600x/>
   <figcaption>
     Figure 4: The Cohort
   </figcaption>
