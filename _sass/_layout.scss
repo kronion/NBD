@@ -166,7 +166,7 @@
 
 .meta-wrap {
   display: inline-block;
-  width: 85%;
+  width: calc(100% - 96px);
   vertical-align: middle;
 }
 
@@ -180,7 +180,7 @@
 /**
  * Posts
  */
-.post-header, .bio-header {
+.post-header, .bio-header, .cohort-header {
   margin-bottom: $spacing-unit;
 
   @include media-query($on-laptop) {
@@ -198,6 +198,10 @@
 
 .bio-header {
   margin: $spacing-unit 0 $spacing-unit/2 0;
+}
+
+.cohort-header {
+  margin-bottom: $spacing-unit/2;
 }
 
 .headshot {
