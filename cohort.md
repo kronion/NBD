@@ -2,6 +2,7 @@
 layout: page
 title: Cohort
 permalink: /cohort/
+order: 2
 ---
 
 <header class="post-header">
