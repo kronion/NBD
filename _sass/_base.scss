@@ -13,7 +13,7 @@ dl, dd, ol, ul, figure {
 /**
  * Basic styling
  */
-body {
+body, .pure-g [class *= "pure-u"] {
     font-family: $base-font-family;
     font-size: $base-font-size;
     line-height: $base-line-height;
@@ -217,6 +217,6 @@ pre {
 /**
  * PureCSS 
  */
-div[class^="pure-u"] > p {
+div[class^="pure-u"] > div {
   padding: 0.5em;
 }
